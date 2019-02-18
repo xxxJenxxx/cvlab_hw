@@ -1,5 +1,5 @@
 # cvlab_hw - Localize & Correct License Plate
-This project is designed to detect and locate the license plate in images.
+This project is designed to detect and locate the license plate in images.     
 Each image contains only one license plate.
 
 ## How-to
