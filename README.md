@@ -1,10 +1,13 @@
 # cvlab_hw - Localize & Correct License Plate
-##試過 - 
-1. BCE
-2. SmoothL1
-3. LR decay
-4. lower LR
+This project is designed to detect and locate the license plate in images.
+Each image contains only one license plate.
 
-##最終修改參數 - 
-1. 嘗試自己建model(五層, conv跟maxpool中間有使用relu, 最後有三層FC, 每層中間依序用了relu->tanh->sigmoid)
-2. epoch = 20
+## How-to
+open cv_hw1.ipynb in jupyter notebook and run the code step by step.
+
+## Environment
+1. Python 3.6
+2. Pytorch 1.0.0
+3. torchvision 0.2.1
+4. scikit-image 0.14.1
+5. tqdm 4.29.0
